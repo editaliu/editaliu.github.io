@@ -76,7 +76,6 @@ body {
 @media screen and (max-width: 1500px) {
     .navbar > .container > .nav > .responsive {
         position: relative;
-
         font-size: 18px;
         color: #f2f2f2;
         text-align: center;
@@ -91,9 +90,6 @@ body {
 
     .navbar > .container > .nav > .responsive > a {
         float: right;
-
-
-
         font-size: 18px;
         color: #f2f2f2;
         text-align: center;
@@ -131,6 +127,8 @@ h3 {
     text-align: center;
 }
 
+
+
 .line {
     border-bottom-width: medium;
     border-bottom-style: groove;
@@ -151,10 +149,15 @@ h3 {
 
 .foto {
     width: 70%;
+    height: auto;
 }
 
 .darbu-pvz {
     width: 86%;
+}
+
+.col-xs-6 {
+    padding-bottom: 5%;
 }
 
 /*
@@ -170,6 +173,11 @@ h3 {
 .footeris {
     background-color: black;
 }
+
+span {
+    padding-right: 2%;
+}
+
 
 .footerio-icon {
     padding-left: 45%;
