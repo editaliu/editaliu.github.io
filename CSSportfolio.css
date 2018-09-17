@@ -1,15 +1,18 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-family: 'Delius', cursive;
+}
+
 body {
     /*    BACKGROUND COLOR CHANGED WITH JAVASCRIPT*/
     /*    background-color: bisque;*/
     margin: 0;
     padding-top: 8%;
+    font-family: 'Delius', cursive;
+    font-size: 14px;
 }
-
-/*
-.container .jumbotron {
-    background-color: #8D9C85;
-}
-*/
 
 .el {
     padding-right: 45%;
@@ -18,20 +21,6 @@ body {
     padding-top: 1%;
 
 }
-
-
-@media screen and (max-width: 1500px) {
-    .el {
-        /*        max-width: 10%;*/
-        float: left;
-    }
-    .baras {
-        /*        max-width: 50%;*/
-        float: right;
-        padding-right: 6%;
-    }
-}
-
 
 /*RESPONSIVE NAVBAR ICON*/
 
@@ -62,7 +51,101 @@ body {
     display: none;
 }
 
+/*PROGRESS BAR color*/
+
+div {
+    color: black;
+}
+
+.stulp > .progress > .progress-bar {
+    color: black;
+    background-color: #337ab7;
+}
+
+h3 {
+    text-align: center;
+}
+.jumbotron .row div h1{
+    font-size: 38px;
+}
+
+.line {
+    border-bottom-width: medium;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    margin-left: 40%;
+    width: 20%;
+}
+
+.borderis {
+    border-style: solid;
+    border-width: medium;
+    border-color: gainsboro;
+    color: gainsboro;
+    
+/*
+    padding: 8%;
+    margin: -10%;
+*/
+}
+
+.foto {
+    width: 70%;
+    height: auto;
+}
+
+.darbu-pvz {
+    width: 86%;
+}
+
+.col-xs-6 {
+    padding-bottom: 5%;
+}
+
+.inrow {
+    display: inline-block;
+}
+
+.footeris {
+    background-color: black;
+}
+
+span {
+    padding-right: 2%;
+}
+.contact .container .row div {
+    width: 50%;
+}
+.contact .container .row div:nth-child(2) {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.footerio-icon, .lyg1 {
+    display: grid;
+    align-items: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.data {
+    color: gainsboro;
+}
+.lyg{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (max-width: 1500px) {
+    .el {
+        /*        max-width: 10%;*/
+        float: left;
+    }
+    .baras {
+        /*        max-width: 50%;*/
+        float: right;
+        padding-right: 6%;
+    }
     .navbar > .container > .nav > a:not(:first-child) {
         display: none;
     }
@@ -70,10 +153,6 @@ body {
         float: right;
         display: block;
     }
-
-}
-
-@media screen and (max-width: 1500px) {
     .navbar > .container > .nav > .responsive {
         position: relative;
         font-size: 18px;
@@ -96,97 +175,4 @@ body {
         padding: 14px 16px;
         text-decoration: none;
     }
-
-
-    /*
-       .baras{
-        float: right;
-    }
-    .el{
-        float: left;
-*/
-}
-
-
-
-/*PROGRESS BAR color*/
-
-div {
-    color: black;
-}
-
-.stulp > .progress > .progress-bar {
-    color: black;
-    background-color: #337ab7;
-}
-
-h4,
-h3 {
-    text-align: center;
-}
-
-
-
-.line {
-    border-bottom-width: medium;
-    border-bottom-style: groove;
-    border-bottom-color: black;
-    margin-left: 40%;
-    width: 20%;
-}
-
-
-.borderis {
-    border-style: solid;
-    border-width: medium;
-    border-color: gainsboro;
-    /*    color: #337ab7;*/
-    padding: 8%;
-    margin: -10%;
-}
-
-.foto {
-    width: 70%;
-    height: auto;
-}
-
-.darbu-pvz {
-    width: 86%;
-}
-
-.col-xs-6 {
-    padding-bottom: 5%;
-}
-.inrow {
-    display: inline-block;
-}
-/*
-.contact{
-    text-align: center;
-}
-*/
-
-.cup {
-    width: 7%;
-}
-
-.footeris {
-    background-color: black;
-}
-
-span {
-    padding-right: 2%;
-}
-
-
-.footerio-icon {
-    padding-left: 45%;
-    padding-bottom: 2%;
-    padding-top: 1%;
-}
-
-.data {
-    padding-right: 85%;
-    padding-bottom: 2%;
-    padding-top: 1%;
 }
