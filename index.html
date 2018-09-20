@@ -4,46 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="CSSportfolio.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSSportfolio.css">
+    <!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">-->
     <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
-
 
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand el" href="#">
+                        <div class="borderis">EL</div>
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
 
-    <!--   NAVIGATION-->
-    <nav class="navbar navbar-inverse navbar-fixed-top topas">
-        <div class="container">
-            <div class="navbar-header el">
-                <a class="navbar-brand" href="#">
-                    <div class="borderis">EL</div>
-                </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">IT SKILLS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <div class="baras nav navbar-nav" id="mynav">
-                <a class="active" href="#">ABOUT</a>
-                <a href="#portfolio">PORTFOLIO</a>
-                <a href="#skills">IT SKILLS</a>
-                <a href="#contact">CONTACT</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
-        </div>
-    </nav>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
 
-    <span id="skills"></span>
+
     <!--CONTAINER OF EVERYTHING ^^-->
     <div class="container">
 
         <!--ABOUT-->
-        <div class="jumbotron">
-            <div class="row">
+        <div class="jumbotron" id="about">
+            <div class="row text-center">
                 <div class="col-md-8 col-sm-6">
                     <h1><strong>Front-End Developer</strong> <br> </h1>
                     <h2>with big love for front-end,<br> experience in teamwork, <br>passion to learn and create new things.</h2><br><br>
@@ -52,12 +56,12 @@
     <h5>Other skills:</h5>
 -->
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-8">
-                    <img class="img-circle img-responsive foto" src="https://metrouk2.files.wordpress.com/2016/07/elib_7085634.jpg?w=620&h=620&crop=1" alt="photo">
+                <div class="col-md-4 col-sm-6">
+                    <img class="img-circle img-responsive center-block foto" src="https://metrouk2.files.wordpress.com/2016/07/elib_7085634.jpg?w=620&h=620&crop=1" alt="photo">
+                    <span id="skills"></span>
                 </div>
             </div>
         </div>
-
 
         <!--   PROGRESS CLASSES -->
         <div class="jumbotron">
@@ -66,36 +70,36 @@
                 <h3>IT SKILLS </h3>
 
                 <div class="line"></div><br>
-                <div class="col-md-6 col-xs-6 stulp">
+                <div class="col-md-6 col-xs-12 stulp">
                     <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%"> HTML</div>
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">HTML5</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> CSS</div>
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">CSS3</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> Bootstrap</div>
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">Bootstrap</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"> JavaScript</div>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">JavaScript</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> PHP</div>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 30%">PHP</div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-xs-6 stulp">
+                <div class="col-md-6 col-xs-12 stulp">
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%"> Java</div>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">Java</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%"> MySQL</div>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">MySQL</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">Adobe Illustrator</div>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">WordPress</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">Adobe PhotoShop</div>
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">PhotoShop</div>
                     </div>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">Unity</div>
@@ -112,69 +116,68 @@
             <div class="row">
 
                 <div class="inrow">
-
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/mXNRqe"><img alt="Tribute page" class="img-responsive  darbu-pvz" src="https://i.imgur.com/L1rn6PJ.png" >
                         </a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/mXNRqe">Tribute page</a></p>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/gokiuke/full/eMmpgB"><img alt="Body mass index" class="img-responsive  darbu-pvz" src="https://i.imgur.com/9NaOczQ.png" >
                         </a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/gokiuke/full/eMmpgB">Body mass index</a></p>
                     </div>
                 </div>
                 <div class="inrow">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/eKYdMV"><img alt="Guess a number" class="img-responsive  darbu-pvz" src="https://i.imgur.com/okEwtGM.png" >
                         </a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/eKYdMV">Guess a number</a></p>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/PaopdZ"><img alt="Calculator" class="img-responsive  darbu-pvz" src="https://i.imgur.com/Ym9KurX.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/PaopdZ">Calculator</a></p>
                     </div>
                 </div>
                 <div class="inrow">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/pKoNNK"><img alt="Heron formula" class="img-responsive  darbu-pvz" src="https://i.imgur.com/Rpxzule.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/pKoNNK">Heron formula</a></p>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/BxzbQV"><img alt="Quotes generator" class="img-responsive  darbu-pvz" src="https://i.imgur.com/bFxBKLs.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/BxzbQV">Quotes generator</a></p>
                     </div>
                 </div>
                 <div class="inrow">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/eKYzdN"><img alt="Background changer" class="img-responsive  darbu-pvz" src="https://i.imgur.com/nnH5XaS.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/eKYzdN">Background changer</a></p>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/yEBQGa"><img alt="Weather at your location" class="img-responsive  darbu-pvz" src="https://i.imgur.com/d3ub4Kq.png" >                </a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/yEBQGa">Weather at your location</a></p>
                     </div>
                 </div>
                 <div class="inrow">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/MXWmBx"><img alt="Nasa" class="img-responsive  darbu-pvz" src="https://i.imgur.com/4nUKAl4.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/MXWmBx">Nasa</a></p>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/pKaeNr"><img alt="Survey form" class="img-responsive  darbu-pvz" src="https://i.imgur.com/k6r0Ntn.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/pKaeNr">Survey form</a></p>
                     </div>
                 </div>
                 <div class="inrow">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/full/XYWMwP"><img alt="Burger" class="img-responsive  darbu-pvz" src="https://i.imgur.com/qPx9RdI.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/full/XYWMwP">Burger</a></p>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-6">
                         <a href="https://codepen.io/editaliu/project/full/ABKRPr"><img alt="Sass Project" class="img-responsive  darbu-pvz" src="https://i.imgur.com/iUMOFBX.png" ></a>
                         <p>You can see this work by clicking on picture or here: <a href="https://codepen.io/editaliu/project/full/ABKRPr">SASS project</a></p>
                     </div>
@@ -182,25 +185,25 @@
             </div>
             <!--                THERE WILL BE ANOTHER PROJECTS-->
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-md-6">
                     <p>There will be more soon...</p>
                 </div>
             </div>
         </div>
 
         <!--   CONTACT-->
-        <div class="jumbotron contact">
+        <div class="jumbotron contact" id="contact">
             <h3>CONTACT ME</h3>
             <div class="line"></div><br>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <p>🙋 Edita Lengviniene</p>
-                        <p> 💌edita.lengviniene@gmail.com</p>
-                        <p>📱 003706316....</p>
-                        <p>🏠 Lithuania, Vilnius</p>
+                    <div class="col-sm-12 col-md-6 ">
+                        <p><span>🙋</span> Edita Lengviniene</p>
+                        <p> <span>💌</span> edita.lengviniene@gmail.com</p>
+                        <p><span>📱</span> +37063162641</p>
+                        <p><span>🏠</span> Lithuania, Vilnius</p>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-sm-12 col-md-6 ">
                         <p>Made at 🌙 with 🖤</p>
                     </div>
                 </div>
@@ -226,10 +229,14 @@
         </div>
     </footer>
 
-
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="JSportfolio.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 
